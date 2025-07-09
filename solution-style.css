@@ -1,0 +1,110 @@
+.bg-body{
+  position: fixed;
+  z-index: -1;
+}
+
+nav{
+  background: linear-gradient(360deg, rgb(45, 1, 1) 0%, #ED3237 466.37%);
+  padding-top: 100px;
+  color: white;
+  .logo{
+  margin-right: 150px;
+  }
+  ul{
+    font-size: 16px;
+      li{
+      margin-right: 20px;
+    }
+  }
+  .nav-link{
+    color: white;
+  }
+}
+
+
+.burger{
+  margin-left: 150px;
+}
+
+.solution-banner{
+  background: linear-gradient(360deg, rgb(45, 1, 1) 0%, #ED3237 466.37%);
+  color: white;
+  padding-bottom: 350px;
+}
+
+.klin{
+  width: 1110px;
+  height: 450px;
+  background-color: white;
+  border-radius: 70px;
+  margin-top: -200px;
+  margin-left: 100px;
+}
+
+.klin-contain{
+  font-size: 18px;
+  .klin-img{
+    width: 411px;
+  }
+}
+
+.qui{
+  width: 1110px;
+  height: 450px;
+  background-color: rgb(224, 219, 219);
+  border-radius: 70px;
+  margin-left: 100px;
+    .qui-img{
+    width: 411px;
+  }
+}
+
+.cheap{
+  width: 1110px;
+  height: 450px;
+  background-color: rgb(223, 222, 222);
+  border-radius: 70px;
+  margin-left: 100px;
+    .cheap-img{
+    width: 411px;
+  }
+}
+
+.call{
+  font-size: 35px;
+}
+
+.copy{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer-head{
+  margin-top: 75px;
+}
+
+.footer{
+  font-size: 16px;
+  font-weight: 600;
+    li{
+      margin-top: 10px;
+    }
+}
+
+i{
+  margin-right: 8px;
+}
+
+
+/* MEDIA QUERY */
+
+@media (max-width:1030px) {
+  nav{
+    .logo{
+      margin-right: 50px;
+    }
+    .burger{
+      margin-left: 10px;
+    }
+  }
+}
