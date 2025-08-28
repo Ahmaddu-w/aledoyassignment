@@ -1,0 +1,142 @@
+.bg-body {
+  position: fixed;
+  z-index: -1;
+}
+
+nav {
+  background: linear-gradient(360deg, rgb(45, 1, 1) 0%, #ed3237 466.37%);
+  color: white;
+  padding: 18px !important;
+  .logo {
+    margin-right: 170px;
+  }
+  ul {
+    font-size: 16px;
+    li {
+      margin-right: 20px;
+    }
+  }
+  .nav-link {
+    color: white;
+  }
+}
+
+.banner-bg {
+  background: linear-gradient(360deg, rgb(45, 1, 1) 0%, #ed3237 466.37%);
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-radius: 50px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  .txt {
+    font-size: 18px;
+  }
+  .btn-ext {
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    button {
+      flex-grow: 1;
+      font-weight: 600;
+      padding: 13px 13px;
+    }
+  }
+  .case-t {
+    font-size: 56px;
+  }
+}
+
+.banner {
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  .card {
+    color: white;
+  }
+  .btn-case {
+    a {
+      margin-right: 13px;
+    }
+  }
+
+  .lastbtn {
+    margin-top: 100px !important;
+  }
+}
+
+.lastbt {
+  justify-content: center;
+}
+.lastbtn {
+  margin: 100px;
+}
+
+.secBg {
+  background-image: url(images/bg.png);
+  height: 100vh;
+  background-size: cover;
+}
+
+.accord {
+  margin-top: 150px;
+  /* font-size: ; */
+  span {
+    font-size: 36px;
+  }
+}
+
+.accordion-button::after {
+  content: "\002B" !important;
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+  top: 30px;
+  background-color: #ed3237;
+  color: #ffffff;
+  height: 30px;
+  width: 30px;
+  border-radius: 26px;
+  display: flex;
+  background-image: none !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-head {
+  margin-top: 75px;
+}
+
+.lastsec {
+  background: linear-gradient(360deg, rgb(45, 1, 1) 0%, #ed3237 466.37%);
+  border-radius: 45px;
+  color: white;
+  padding: 70px;
+  margin-bottom: 100px;
+  input {
+    border-radius: 20px;
+    padding: 20px 30px;
+    background-color: #ffffff0d;
+    width: 100%;
+  }
+  .inputed {
+    height: 130px;
+  }
+  .dotted {
+    background-color: transparent;
+    border: dotted;
+    border-radius: 0px;
+  }
+}
+
+.footer {
+  font-size: 16px;
+  font-weight: 600;
+  li {
+    margin-top: 10px;
+  }
+  .copy {
+    font-weight: 400;
+    font-size: 14px;
+  }
+}

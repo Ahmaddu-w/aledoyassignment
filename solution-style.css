@@ -36,7 +36,6 @@ nav{
   width: 1110px;
   height: 450px;
   background-color: white;
-  border-radius: 70px;
   margin-top: -200px;
   margin-left: 100px;
 }
@@ -46,6 +45,17 @@ nav{
   .klin-img{
     width: 411px;
   }
+}
+
+.cardklin{
+  margin-left: 200px;
+  margin-top: -200px;
+  border-radius: 70px !important;
+  width: 1110px;
+  font-size: 18px;
+    img{
+      width: 411px;
+    }
 }
 
 .qui{
@@ -106,5 +116,9 @@ i{
     .burger{
       margin-left: 10px;
     }
+  }
+
+  .cardklin{
+    margin-left: 0px;
   }
 }
